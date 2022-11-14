@@ -9,11 +9,13 @@ body {
 
 main {
     margin: auto 8%;
+}
+
+.main-content {
     font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
 
 .menu {
     position: fixed;
@@ -29,14 +31,13 @@ main {
     left: 1%;
 }
 
+
 .big-subtitle {
     font-family: 'Mukta Mahee', sans-serif;
     color: #f5f5f5;
     -webkit-text-stroke: 0.5px #4A4642;
     font-size: 8em;
     position: relative;
-    width: 100%;
-    height: 100%;
     /* overflow: hidden; */
 }
 
@@ -47,7 +48,6 @@ main {
     position: absolute;
     top: 41%;
     letter-spacing: 5px;
-
 }
 
 .ja-subtitle {
@@ -59,4 +59,69 @@ main {
     position: absolute;
     top: 75%;
     left: 1%;
+}
+
+/* チーム情報 */
+.team-name td {
+    color: #F5B343;
+    font-family: ab-tombo-bold, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.user-icon img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 個人設定 */
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-twitch {
+    color: #6441a5;
+}
+
+.fa-youtube {
+    color: #c4032b;
+}
+
+/* チームメッセージ */
+.team-message td {
+    vertical-align: middle;
+}
+
+.box {
+    border: 2px solid #F5B343;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 1em;
+}
+
+/* メッセージ */
+.box h3 {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -1.8em;
+}
+
+.box span {
+    padding: 0 .5em;
+    background: #F5f5f5;
+    color: #F5B343;
+}
+
+.box .inner {
+    padding: 1.2em .5em .5em;
+    text-align: center;
 }
