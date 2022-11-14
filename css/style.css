@@ -3,8 +3,13 @@ video {
     height: auto;
 }
 
+* {
+    outline: 1px solid magenta;
+}
+
 body {
     background-color: #f5f5f5;
+
 }
 
 main {
@@ -36,7 +41,7 @@ main {
     font-family: 'Mukta Mahee', sans-serif;
     color: #f5f5f5;
     -webkit-text-stroke: 0.5px #4A4642;
-    font-size: 8em;
+    font-size: 7em;
     position: relative;
     /* overflow: hidden; */
 }
@@ -100,10 +105,11 @@ main {
 }
 
 .box {
-    border: 2px solid #F5B343;
-    border-radius: 5px;
+    border: 1px solid #4a4642;
+    border-radius: 2px;
     position: relative;
     margin-top: 1em;
+
 }
 
 /* メッセージ */
@@ -112,16 +118,17 @@ main {
     position: absolute;
     right: 0;
     left: 0;
-    top: -1.8em;
+    top: -1.9em;
+    font-family: 'Mukta Mahee', sans-serif;
 }
 
 .box span {
     padding: 0 .5em;
     background: #F5f5f5;
-    color: #F5B343;
+    color: #4A4642;
 }
 
 .box .inner {
-    padding: 1.2em .5em .5em;
+    padding: 1.2em .3em .3em;
     text-align: center;
 }
