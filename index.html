@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 
-    <title>ゔぁろ部杯</title>
+  <title>ゔぁろ部杯</title>
 
-    <!-- フォント -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee&display=swap" rel="stylesheet">
-<script>
-    (function(d) {
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee&display=swap" rel="stylesheet">
+  <script>
+    (function (d) {
       var config = {
         kitId: 'glz0lgb',
         scriptTimeout: 3000,
         async: true
       },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
     })(document);
   </script>
 </head>
+
 <body>
 
-<!-- index動画 -->
-<video autoplay muted loop src="vcc-index.mp4"></video>
+  <!-- index動画 -->
+  <video autoplay muted loop src="vcc-index.mp4"></video>
 
-<!-- メニュー -->
-<div class="menu">
-<img src="/img/spike_blue.png" alt="">
-</div>
+  <!-- メニュー -->
+  <div class="menu">
+    <img src="/img/spike_blue.png" alt="">
+  </div>
 
-<main>
-  <div id="member">
-    <div class="big-subtitle">
+  <main>
+    <div id="member">
+      <div class="big-subtitle">
         TEAM & MEMBER
         <div class="small-subtitle">TEAM & MEMBER</div>
         <div class="ja-subtitle">参加メンバー</div>
+      </div>
     </div>
-</div>
 
-<div id="day">
-  <div class="big-subtitle">
-    DAY
-    <div class="small-subtitle">DAY</div>
-    <div class="ja-subtitle">日程</div>
-</div>
-</div>
+    <div id="day">
+      <div class="big-subtitle">
+        DAY
+        <div class="small-subtitle">DAY</div>
+        <div class="ja-subtitle">日程</div>
+      </div>
+      <table>
+        <tr>
+          <td>本番：</td>
+          <td>2022.11.19 (Sat.)</td>
+        </tr>
+        <tr>
+          <td>スクリム・練習期間：</td>
+          <td>2022.10.30 (Thu.) ~ 2022.11.16 (Wed.)</td>
+        </tr>
+      </table>
+    </div>
 
-<div id="schedule">
-  <div class="big-subtitle">
-    SCHEDULE
-    <div class="small-subtitle">SCHEDULE</div>
-    <div class="ja-subtitle">当日スケジュール</div>
-</div>
+    <div id="schedule">
+      <div class="big-subtitle">
+        SCHEDULE
+        <div class="small-subtitle">SCHEDULE</div>
+        <div class="ja-subtitle">当日スケジュール</div>
+      </div>
 
-<div id="rule">
-  <div class="big-subtitle">
-    RULE
-    <div class="small-subtitle">RULE</div>
-    <div class="ja-subtitle">大会ルール</div>
-</div>
-</main>
+      <div id="rule">
+        <div class="big-subtitle">
+          RULE
+          <div class="small-subtitle">RULE</div>
+          <div class="ja-subtitle">大会ルール</div>
+        </div>
+  </main>
 
 
-    
+
 </body>
+
 </html>

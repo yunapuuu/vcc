@@ -1,31 +1,35 @@
-video{
+video {
     width: 100%;
     height: auto;
 }
 
-body{
+body {
     background-color: #f5f5f5;
 }
 
-main{
+main {
     margin: auto 8%;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.menu{
+
+.menu {
     position: fixed;
     z-index: 99999;
     width: 100%;
     top: 1em;
 }
 
-.menu img{
+.menu img {
     width: 9%;
     height: auto;
     position: absolute;
     left: 1%;
 }
 
-.big-subtitle{
+.big-subtitle {
     font-family: 'Mukta Mahee', sans-serif;
     color: #f5f5f5;
     -webkit-text-stroke: 0.5px #4A4642;
@@ -36,17 +40,17 @@ main{
     /* overflow: hidden; */
 }
 
-.small-subtitle{
+.small-subtitle {
     font-family: 'Mukta Mahee', sans-serif;
     color: #4a4642;
     font-size: 40%;
     position: absolute;
     top: 41%;
     letter-spacing: 5px;
-   
+
 }
 
-.ja-subtitle{
+.ja-subtitle {
     font-family: ab-tombo-bold, sans-serif;
     font-weight: 400;
     font-style: normal;
