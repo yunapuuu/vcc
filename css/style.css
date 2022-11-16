@@ -3,9 +3,9 @@ video {
     height: auto;
 }
 
-* {
+/* * {
     outline: 1px solid magenta;
-}
+} */
 
 body {
     background-color: #f5f5f5;
@@ -84,6 +84,19 @@ main {
     font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* sns */
+.sns td {
+    display: inline-block;
+}
+
+.kajyougaki {
+    background-color: #F5B343;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 1px #4A4642;
 }
 
 /* 個人設定 */
