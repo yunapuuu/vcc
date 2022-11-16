@@ -66,18 +66,38 @@ main {
     left: 1%;
 }
 
+/* チーム全体 */
+.team {
+    margin-bottom: 5%;
+}
+
 /* チーム情報 */
-.team-name td {
+.team-name td:first-child {
     color: #F5B343;
-    font-family: ab-tombo-bold, sans-serif;
+    font-family: rocknroll-one, sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.25em;
+    padding-bottom: 20px;
+}
+
+.team-name td:last-child {
+    color: #4A4642;
+    font-size: 0.75em;
+    text-align: right;
+}
+
+/* アイコン */
+.user-icon {
+    text-align: center;
 }
 
 .user-icon img {
-    width: 50%;
+    width: 150px;
     height: auto;
     border-radius: 50%;
+    display: block;
+    margin: 0 50px;
 }
 
 .user-name {
@@ -86,11 +106,26 @@ main {
     font-style: normal;
 }
 
-/* sns */
-.sns td {
-    display: inline-block;
+.user-name td {
+    text-align: center;
+    vertical-align: middle;
 }
 
+/* sns */
+.sns td {
+    text-align: justify;
+}
+
+.snsicon {
+    text-align: center;
+}
+
+.snsicon a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* ルール */
 .kajyougaki {
     background-color: #F5B343;
     width: 15px;
@@ -122,7 +157,6 @@ main {
     border-radius: 2px;
     position: relative;
     margin-top: 1em;
-
 }
 
 /* メッセージ */
@@ -131,7 +165,7 @@ main {
     position: absolute;
     right: 0;
     left: 0;
-    top: -1.9em;
+    top: -1.8em;
     font-family: 'Mukta Mahee', sans-serif;
 }
 
@@ -142,6 +176,6 @@ main {
 }
 
 .box .inner {
-    padding: 1.2em .3em .3em;
+    padding: 1.2em .3em .8em;
     text-align: center;
 }
