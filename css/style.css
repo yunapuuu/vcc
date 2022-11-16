@@ -20,6 +20,7 @@ main {
     font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 5%;
 }
 
 .menu {
@@ -126,12 +127,13 @@ main {
 }
 
 /* ルール */
-.kajyougaki {
-    background-color: #F5B343;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    box-shadow: 0px 1px #4A4642;
+.kajyougaki td:first-child {
+    color: #F5B343;
+}
+
+.kajyougaki td:last-child {
+    font-weight: bold;
+    color: #4a4642;
 }
 
 /* 個人設定 */
