@@ -82,9 +82,10 @@ main {
     padding-bottom: 20px;
 }
 
+/* チームキャラBAN */
 .team-name td:last-child {
     color: #4A4642;
-    font-size: 0.75em;
+    font-size: 0.5em;
     text-align: right;
 }
 
@@ -98,7 +99,7 @@ main {
     height: auto;
     border-radius: 50%;
     display: block;
-    margin: 0 50px;
+    margin: 0 30px;
 }
 
 .user-name {
