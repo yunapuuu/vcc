@@ -20,6 +20,7 @@ main {
     font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 5%;
 }
 
 .menu {
@@ -81,9 +82,10 @@ main {
     padding-bottom: 20px;
 }
 
+/* チームキャラBAN */
 .team-name td:last-child {
     color: #4A4642;
-    font-size: 0.75em;
+    font-size: 0.5em;
     text-align: right;
 }
 
@@ -97,7 +99,7 @@ main {
     height: auto;
     border-radius: 50%;
     display: block;
-    margin: 0 50px;
+    margin: 0 30px;
 }
 
 .user-name {
@@ -126,12 +128,13 @@ main {
 }
 
 /* ルール */
-.kajyougaki {
-    background-color: #F5B343;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    box-shadow: 0px 1px #4A4642;
+.kajyougaki td:first-child {
+    color: #F5B343;
+}
+
+.kajyougaki td:last-child {
+    font-weight: bold;
+    color: #4a4642;
 }
 
 /* 個人設定 */
