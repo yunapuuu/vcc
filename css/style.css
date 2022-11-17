@@ -47,9 +47,11 @@ main {
     position: absolute;
 }
 
-.button_title {
+.menu_button div {
     position: absolute;
     top: -0.5vh;
+    display: block;
+    margin-left: 2.3vw;
 }
 
 .menu_content {
