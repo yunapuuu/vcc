@@ -6,7 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- css -->
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/hover.css">
+  <link rel="stylesheet" href="/css/streaming.css">
+  <link rel="stylesheet" href="/js/button.js">
 
   <title>ゔぁろ部杯</title>
 
@@ -27,17 +31,58 @@
 
   <!-- fontaesome -->
   <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+
+  <!-- ライブストリーミング -->
+  <link rel="stylesheet" href="css/stream.css">
+
 </head>
 
 <body>
+
+  <!-- メニュー -->
+  <div class="menu">
+    <div class="menu_button">
+      <img src="/img/spike_blue.png" alt="">
+      <div>MENU</div>
+    </div>
+
+    <div class="menu_content">
+      <a href="#member" class="c-txt marker">TEAM & MEMBER</a>
+      <a href="#day" class="c-txt marker">DAY</a>
+      <a href="#schedule" class="c-txt marker">SCHEDULE</a>
+      <a href="#rule" class="c-txt marker">RULE</a>
+    </div>
+  </div>
+
   <main>
     <!-- index動画 -->
     <video autoplay muted loop src="vcc-index.mp4"></video>
 
-    <!-- メニュー -->
-    <div class="menu">
-      <img src="/img/spike_blue.png" alt="">
+    <div id="day">
+      <div class="big-subtitle">
+        DAY
+        <div class="small-subtitle">DAY</div>
+        <div class="ja-subtitle">日程</div>
+      </div>
+      <div class="main-content">
+        <table class="dayTable">
+          <!-- <tr>
+            <td>本配信：</td>
+            <td></td>
+          </tr> -->
+          <tr>
+            <td>本番：</td>
+            <td>2022.11.19 (Sat.)</td>
+          </tr>
+          <tr>
+            <td>スクリム・練習期間：</td>
+            <td>2022.10.30 (Thu.) ~ 2022.11.16 (Wed.)</td>
+          </tr>
+        </table>
+      </div>
+
     </div>
+
 
     <div id="member">
       <div class="big-subtitle">
@@ -113,7 +158,7 @@
               <td><img src="/img/icon_pchan.png" alt=""></td>
               <td><img src="/img/icon_candykaeru.jpeg" alt=""></td>
               <td><img src="/img/icon_hamuo.jpeg" alt=""></td>
-              <td><img src="/img/chisato.jpeg" alt=""></td>
+              <td><img src="/img/icon_ema.jpeg" alt=""></td>
             </tr>
 
             <!-- 個人名 -->
@@ -130,7 +175,7 @@
               <td>
                 <div class="snsicon">
                   <a href="https://twitter.com/EchoizZ"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="https://www.twitch.tv/echoooo3"><i class="fa-brands fa-twitch"></i></a>
+                  <a href="https://www.twitch.tv/echoooo3" class="btnripple2"><i class="fa-brands fa-twitch"></i></a>
                 </div>
               </td>
               <td>
@@ -214,7 +259,7 @@
               <td>
                 <div class="snsicon">
                   <a href="https://twitter.com/tkmagic__"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="https://youtube.com/channel/UCSoBYLM_fQIeBaITr1pmKRw"><i
+                  <a href="https://youtube.com/channel/UCSoBYLM_fQIeBaITr1pmKRw" class="btnripple3"><i
                       class="fa-brands fa-youtube"></i></a>
                 </div>
               </td>
@@ -226,7 +271,7 @@
               <td>
                 <div class="snsicon">
                   <a href="https://twitter.com/_unach_"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="https://www.twitch.tv/unach1"><i class="fa-brands fa-twitch"></i></a>
+                  <a href="https://www.twitch.tv/unach1" class="btnripple2"><i class="fa-brands fa-twitch"></i></a>
                 </div>
               </td>
             </tr>
@@ -312,27 +357,6 @@
 
         </div>
       </div>
-    </div>
-
-    <div id="day">
-      <div class="big-subtitle">
-        DAY
-        <div class="small-subtitle">DAY</div>
-        <div class="ja-subtitle">日程</div>
-      </div>
-      <div class="main-content">
-        <table class="dayTable">
-          <tr>
-            <td>本番：</td>
-            <td>2022.11.19 (Sat.)</td>
-          </tr>
-          <tr>
-            <td>スクリム・練習期間：</td>
-            <td>2022.10.30 (Thu.) ~ 2022.11.16 (Wed.)</td>
-          </tr>
-        </table>
-      </div>
-
     </div>
 
     <div id="schedule">

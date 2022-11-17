@@ -28,13 +28,48 @@ main {
     z-index: 99999;
     width: 100%;
     top: 1em;
+    margin: auto 3%;
 }
 
-.menu img {
-    width: 9%;
+.menu_button {
+    font-family: 'Mukta Mahee', sans-serif;
+    color: #4A4642;
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+    top: 3vh;
+}
+
+.menu_button img {
+    display: inline-block;
+    width: 8%;
     height: auto;
     position: absolute;
-    left: 1%;
+}
+
+.menu_button div {
+    position: absolute;
+    top: -0.5vh;
+    display: block;
+    margin-left: 2.3vw;
+}
+
+.menu_content {
+    text-align: center;
+    height: auto;
+    width: 90%;
+    margin-top: 3vh;
+    /* margin-topはmenu_buttonのtopと高さ合わせる */
+}
+
+.menu_content a {
+    font-family: 'Mukta Mahee', sans-serif;
+    color: #4A4642;
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 50px;
+    text-decoration: none;
 }
 
 
