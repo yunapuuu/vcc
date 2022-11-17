@@ -60,6 +60,8 @@ main {
     width: 90%;
     margin-top: 3vh;
     /* margin-topはmenu_buttonのtopと高さ合わせる */
+    opacity: 0;
+    visibility: hidden;
 }
 
 .menu_content a {
@@ -70,6 +72,7 @@ main {
     display: inline-block;
     margin: 0 50px;
     text-decoration: none;
+
 }
 
 
@@ -216,4 +219,14 @@ main {
 .box .inner {
     padding: 1.2em .3em .8em;
     text-align: center;
+}
+
+.isActive {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* スケジュール */
+#schedule img {
+    width: 35%;
 }
