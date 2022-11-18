@@ -105,6 +105,20 @@ main {
     left: 1%;
 }
 
+/* 大会概要 */
+.dayTable {
+    margin-bottom: 50px;
+}
+
+.officialLink td:first-child {
+    padding: 0 0 20px 0px;
+}
+
+.officialLink td:last-child {
+    padding: 0 0 0 40px;
+}
+
+
 /* チーム全体 */
 .team {
     margin-bottom: 5%;

@@ -28,3 +28,8 @@
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+i:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
