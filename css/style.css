@@ -149,10 +149,6 @@ main {
 }
 
 /* アイコン */
-.user-icon {
-    text-align: center;
-}
-
 .user-icon img {
     width: 150px;
     height: auto;
@@ -219,6 +215,7 @@ main {
     border-radius: 2px;
     position: relative;
     margin-top: 1em;
+    width: 95%;
 }
 
 /* メッセージ */
