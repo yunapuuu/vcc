@@ -27,8 +27,9 @@ main {
     position: fixed;
     z-index: 99999;
     width: 100%;
-    top: 1em;
-    margin: auto 3%;
+    /* top: 1em; */
+    margin: 0 3%;
+    top: 0;
 }
 
 .menu_button {
@@ -55,11 +56,10 @@ main {
 }
 
 .menu_content {
+    background-color: #F5f5f5;
     text-align: center;
-    height: auto;
-    width: 90%;
-    margin-top: 3vh;
-    /* margin-topはmenu_buttonのtopと高さ合わせる */
+    height: 10vh;
+    width: 100%;
     opacity: 0;
     visibility: hidden;
 }
@@ -72,7 +72,8 @@ main {
     display: inline-block;
     margin: 0 50px;
     text-decoration: none;
-
+    margin-top: 3vh;
+    /* margin-topはmenu_buttonのtopと高さ合わせる */
 }
 
 
@@ -107,16 +108,22 @@ main {
 
 /* 大会概要 */
 .dayTable {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
-.officialLink td:first-child {
+/* 本配信更新前 */
+.officialLink td {
+    padding: 0 0 20px 0px;
+}
+
+
+/* .officialLink td:first-child {
     padding: 0 0 20px 0px;
 }
 
 .officialLink td:last-child {
     padding: 0 0 0 40px;
-}
+} */
 
 
 /* チーム全体 */
@@ -235,9 +242,18 @@ main {
     text-align: center;
 }
 
+/* メニューのホバー */
+
 .isActive {
     opacity: 1;
     visibility: visible;
+    transition: 0.5s;
+}
+
+.isRemove {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
 }
 
 /* スケジュール */
